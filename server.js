@@ -24,5 +24,5 @@ wss.on('connection', (ws) => {
 
 const port = 3000;
 app.listen(port, () => {
-  console.log(`Server started on https://pawisiv.github.io/lab958331/:${port}`);
+  console.log(`Server started on ws://localhost:${port}`);
 });
