@@ -9,7 +9,7 @@
   <input type="text" id="messageInput" />
   <button onclick="sendMessage()">Send</button>
   <script>
-    const socket = new WebSocket('ws://localhost:8080'); // Corrected port to match server code
+    const socket = new WebSocket('https://pawisiv.github.io/lab958331/:8080'); // Corrected port to match server code
 
     socket.addEventListener('open', () => {
       console.log('Connected to WebSocket server.');
